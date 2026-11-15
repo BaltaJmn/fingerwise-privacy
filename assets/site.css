@@ -1,0 +1,14 @@
+:root { --paper: #F6F0E4; --card: #FDFAF3; --ink: #1F2340; --coral: #F2684A; --mustard: #E9B44C; }
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--paper); color: var(--ink); font: 18px/1.55 ui-rounded, "SF Pro Rounded", system-ui, sans-serif; }
+main { max-width: 680px; margin: 0 auto; padding: 48px 22px 80px; }
+header { display: flex; align-items: center; gap: 16px; margin-bottom: 34px; }
+header img { width: 72px; height: 72px; border-radius: 17px; border: 3px solid var(--ink); box-shadow: 4px 5px 0 var(--ink); }
+header a { font-size: 30px; font-weight: 900; color: var(--ink); text-decoration: none; }
+h1 { font-size: 40px; line-height: 1.1; font-weight: 900; margin: 0 0 18px; }
+h2 { font-size: 22px; font-weight: 800; margin: 34px 0 6px; }
+p, li { color: #1F2340D0; }
+a { color: var(--coral); font-weight: 700; }
+.block { background: var(--card); border: 3px solid var(--ink); border-radius: 18px; box-shadow: 5px 6px 0 var(--ink); padding: 18px 20px; margin: 22px 0; }
+.block p { margin: 0; color: var(--ink); font-weight: 600; }
+footer { margin-top: 50px; font-size: 15px; }
